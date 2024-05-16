@@ -1,0 +1,123 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+	margin: 0;
+	background-color: black;
+	color: white;
+}
+
+header {
+	position: relative;
+	font-size: larger;
+	background-color: #313031;
+	color: white;
+	padding:2% 30%;
+	z-index: 3;
+}
+
+.titolo{
+	text-align: center;
+}
+
+.informazioni {
+	font-size: 100%;
+	position: absolute;
+	top: 44%;
+	right: 7%;
+	width: 9%;
+	height: 5%;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #313031;
+	border: #313031;
+	cursor:pointer;
+}
+
+
+
+
+.my-button{
+	width: 13%;
+	height: 11%;
+	background-color: #313031;
+    color: white;
+    border: none;
+	padding:2% 2%;
+	text-align: center;
+   	text-decoration: none;
+    display: inline-block;
+	position: relative;
+    font-size: 120%;
+	margin: 2% 1%;
+    cursor: pointer;
+    border-radius: 6%;
+    transition: background-color 0.3s ease;
+	
+
+}
+
+.acquisti {
+	text-align: center;
+	position:relative;
+	top:45%;
+	z-index: 2;
+}
+
+
+button.informazioni:hover{
+	font-size: large;
+}
+
+button.my-button:hover{
+	color:green;
+}
+
+
+img{
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.immagine1{
+	position:absolute;
+	top:18%;
+	text-align: center;
+	z-index: 1;
+	
+}
+
+
+.posizione {
+	padding: 3% 0%;
+	margin-top: 45.2%;
+	text-align:center;
+	font-size: 150%;
+	background-color: #313031;
+
+}
+
+#tasto{
+	position: absolute;
+	right: 14%;
+}
+
+
+.primo{
+	position:absolute;
+	top:83.5%;
+	right: 56.5%;
+	color: white;
+	font-size: 120%;
+	z-index: 3;
+}
+
+
+.secondo{
+	position:absolute;
+	top:83.5%;
+	right: 42%;
+	color: white;
+	font-size: 120%;
+	z-index: 3;
+}
